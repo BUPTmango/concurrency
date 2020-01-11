@@ -1,7 +1,6 @@
 package com.wangguolong.concurrency.example.atomic;
 
 import com.wangguolong.concurrency.annotations.ThreadSafe;
-import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.CountDownLatch;
@@ -9,7 +8,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
 /**
  * @author Wang Guolong

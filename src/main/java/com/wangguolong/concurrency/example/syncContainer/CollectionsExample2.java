@@ -1,12 +1,10 @@
 package com.wangguolong.concurrency.example.syncContainer;
 
-import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 import com.wangguolong.concurrency.annotations.ThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Collections;
-import java.util.List;
 import java.util.Set;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
