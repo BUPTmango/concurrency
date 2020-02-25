@@ -10,6 +10,8 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
+ * 使用AtomicInteger
+ * incrementAndGet()
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/9 10:53 上午

@@ -6,6 +6,9 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
+ * AtomicReference类提供了一个可以原子读写的对象引用变量
+ *  AtomicReference甚至有一个先进的compareAndSet（）方法，
+ *  它可以将引用与预期值（引用）进行比较，如果它们相等，则在AtomicReference对象内设置一个新的引用
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/9 10:53 上午

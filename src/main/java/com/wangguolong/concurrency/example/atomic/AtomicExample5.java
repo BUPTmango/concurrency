@@ -15,11 +15,15 @@ import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 @ThreadSafe
 public class AtomicExample5 {
 
-    // AtomicIntegerFieldUpdater更新某一个类的特定字段的值
+    /**
+     * AtomicIntegerFieldUpdater更新某一个类的特定字段的值
+     */
     private static AtomicIntegerFieldUpdater<AtomicExample5> updater =
             AtomicIntegerFieldUpdater.newUpdater(AtomicExample5.class, "count");
 
-    // 使用在AtomicIntegerFieldUpdater中的字段必须用volatile进行标识
+    /**
+     * 使用在AtomicIntegerFieldUpdater中的字段必须用volatile进行标识
+     */
     @Getter
     public volatile int count = 100;
 

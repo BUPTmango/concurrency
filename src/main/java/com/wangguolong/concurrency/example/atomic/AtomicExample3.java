@@ -10,6 +10,8 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.LongAdder;
 
 /**
+ * 使用LongAdder
+ * increment()
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/9 10:53 上午
