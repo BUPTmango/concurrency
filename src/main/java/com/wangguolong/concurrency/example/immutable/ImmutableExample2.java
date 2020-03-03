@@ -8,6 +8,7 @@ import java.util.Collections;
 import java.util.Map;
 
 /**
+ * Collections.unmodifiableMap
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/10 4:08 下午

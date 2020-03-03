@@ -1,6 +1,8 @@
 package com.wangguolong.concurrency.example.threadLocal;
 
 /**
+ * ThreadLocal
+ * set get remove
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/10 5:36 下午

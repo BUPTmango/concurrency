@@ -44,7 +44,7 @@ public class LockExample3 {
     }
 
     public Data put(String key, Data value) {
-        // 写锁调用lock的时候要求没有没有任何读锁还是lock的
+        // 写锁调用lock的时候要求没有任何读锁还是lock的
         writeLock.lock();
         try {
             return map.put(key, value);

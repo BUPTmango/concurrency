@@ -11,6 +11,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * 通过lock代替synchronized
+ * ReentrantLock
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/9 10:53 上午

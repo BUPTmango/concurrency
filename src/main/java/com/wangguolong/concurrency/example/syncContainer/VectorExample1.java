@@ -10,6 +10,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 /**
+ * Vector
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/9 10:53 上午

@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.Map;
 
 /**
+ * final的HashMap里面的元素可以被修改
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/10 4:08 下午

@@ -9,6 +9,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 /**
+ * 变量上加volatile关键字
+ * volatile不保证原子性
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/9 10:53 上午

@@ -6,6 +6,7 @@ import com.google.common.collect.ImmutableSet;
 import com.wangguolong.concurrency.annotations.ThreadSafe;
 
 /**
+ * Guava ImmutableXXX
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/10 4:37 下午

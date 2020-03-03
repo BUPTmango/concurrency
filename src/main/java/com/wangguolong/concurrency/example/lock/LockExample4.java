@@ -27,7 +27,9 @@ public class LockExample4 {
             }
         }
 
-        //下面看看乐观读锁案例
+        // 下面看看乐观读锁案例
+        // 总是假设最好的情况，每次去拿数据的时候都认为别人不会修改，所以不会上锁，但是在更新的时候会判断一下在此期间别人有没有去更新这个数据
+        // 乐观锁适用于多读的应用类型，这样可以提高吞吐量
         double distanceFromOrigin() { // A read-only method
             long stamp = sl.tryOptimisticRead(); //获得一个乐观读锁
             double currentX = x, currentY = y;  //将两个字段读入本地局部变量
@@ -43,7 +45,8 @@ public class LockExample4 {
             return Math.sqrt(currentX * currentX + currentY * currentY);
         }
 
-        //下面是悲观读锁案例
+        // 下面是悲观读锁案例
+        // 总是假设最坏的情况，每次去拿数据的时候都认为别人会修改，所以每次在拿数据的时候都会上锁
         void moveIfAtOrigin(double newX, double newY) { // upgrade
             // Could instead start with optimistic, not read mode
             long stamp = sl.readLock();
