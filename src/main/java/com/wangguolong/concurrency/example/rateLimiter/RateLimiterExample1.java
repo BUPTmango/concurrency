@@ -14,6 +14,7 @@ public class RateLimiterExample1 {
     public static void main(String[] args) throws Exception {
 
         for (int index = 0; index < 100; index++) {
+            // 设置等待超时时间的方式获取令牌，如果超timeout为0，则代表非阻塞，获取不到立即返回
             if (rateLimiter.tryAcquire(190, TimeUnit.MILLISECONDS)) {
                 handle(index);
             }

@@ -5,6 +5,7 @@ import com.wangguolong.concurrency.annotations.ThreadSafe;
 /**
  * 懒汉模式 -》 双重同步锁单例模式
  * 单例实例在第一次使用时进行创建
+ * 变量上使用volatile禁止重排序
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/10 10:56 上午

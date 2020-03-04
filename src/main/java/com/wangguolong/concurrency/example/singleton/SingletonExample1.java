@@ -5,7 +5,7 @@ import com.wangguolong.concurrency.annotations.NotThreadSafe;
 /**
  * 懒汉模式
  * 单例实例在第一次使用时进行创建
- * 单线程下不会有问题 但是多线程在30-32行会出现问题
+ * 单线程下不会有问题 但是多线程在34-36行会出现问题
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/10 10:56 上午

@@ -9,6 +9,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 /**
+ * StringBuffer
  * @author Wang Guolong
  * @version 1.0
  * @date 2020/1/10 7:16 下午
